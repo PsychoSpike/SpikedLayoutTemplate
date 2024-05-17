@@ -1,4 +1,11 @@
-<mat-nav-list>
-    <a mat-list-item routerLink="/home"  routerLinkActive="active" ariaCurrentWhenActive="page">Home</a>
-    <a mat-list-item routerLink="/gridview1"  routerLinkActive="active" ariaCurrentWhenActive="page">Gridview1</a>
+<mat-nav-list class="nav-list">
+    <a mat-list-item routerLink="/home" routerLinkActive="active-link" ariaCurrentWhenActive="page"
+        [routerLinkActiveOptions]="{exact:
+        true}">Home!</a>
+    <a mat-list-item routerLink="/gridview1" routerLinkActive="active-link" ariaCurrentWhenActive="page"
+        [routerLinkActiveOptions]="{exact:
+        true}">Gridview1</a>
+    <a mat-list-item routerLink="/gridview2" routerLinkActive="active-link" ariaCurrentWhenActive="page"
+        [routerLinkActiveOptions]="{exact:
+                true}">Gridview2</a>
 </mat-nav-list>

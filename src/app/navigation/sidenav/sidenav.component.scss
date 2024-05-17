@@ -1,0 +1,12 @@
+@import '../../../styles.scss';
+
+
+
+.active-link{
+   background-color:$my-app-highlight; 
+}
+
+.nav-list{
+   margin:5px;
+   gap: 2px;
+}
